@@ -1,4 +1,4 @@
-package NodeList
+package nodelist
 
 import "fmt"
 

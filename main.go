@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"GoPlayGround/NodeList"
+	"GoPlayGround/nodelist"
 )
 
-func main(){
-	a := NodeList.NodeList[string]{Next: nil, Val: "Hello"}
+func main() {
+	a := nodelist.NodeList[string]{Next: nil, Val: "Hello"}
 	a.Append("Goobye")
 	fmt.Println(a)
 }
